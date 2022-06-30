@@ -1,0 +1,6 @@
+wheel
+requests
+plotly
+dash
+pandas
+redis

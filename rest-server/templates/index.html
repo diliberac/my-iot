@@ -1,0 +1,18 @@
+<html>
+
+<head>
+    <title>REST API</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>REST API</h1>
+    <hr>
+    <p>Running version: {{rest_version}}</p>
+    <h2>Temperature</h2>
+    <p><a href="/realtime">/realtime</a></p>
+    <p><a href="/history">/history</a></p>
+    <p><a href="/simulator">/simulator</a></p>
+</body>
+
+</html>
